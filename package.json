@@ -1,0 +1,24 @@
+{
+    "description": "Easily download free music.", 
+    "author": "Steven Viola <steve@stevenviola.com>", 
+    "bt:publisher": "Steven Viola", 
+    "bt:libs": [
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/apps-sdk.pkg", 
+            "name": "apps-sdk"
+        }, 
+        {
+            "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.js", 
+            "name": "jquery-ui"
+        }
+    ], 
+    "site": "http://www.stevenviola.com/zulu-music", 
+    "bt:update_url": "http://www.stevenviola.com/zulu-music", 
+    "version": "0.1", 
+    "bt:description": "Easily download free music.", 
+    "keywords": [
+        "rss"
+    ], 
+    "bt:release_date": "07/20/2010", 
+    "name": "Zulu Music"
+}
