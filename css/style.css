@@ -29,6 +29,10 @@ body {
 	color:#67C8FF;
 }
 
+a {color:#67C8FF;font-size:14px;padding-left:14px;background:url("/img/ext.png") no-repeat;}
+
+#albumList {clear:left;}
+
 #bcelement img{
 	height:30px;
 	width:24px;
@@ -110,9 +114,11 @@ body {
 img.poster { 
     float: left; 
     margin: 27px;
-	max-width: 200px;
-	max-height: 220px;
+	width: 200px;
+	height: 220px;
+    display: block;
 	vertical-align: text-bottom;
+    background: url("/img/loading.png") no-repeat center center;
 }
 
 img.poster:hover { 
@@ -156,22 +162,23 @@ img.poster:hover {
 		text-align: left;
 		color:#ffffff;
 }
-
-.albumTitle {
-	color:#ffffff;
+#albumInfo div {
+    color:#ffffff;
 	margin-left:27px;
+}
+.albumTitle {
 	font-size: 24px;
 }
 
 .albumArtist {
-	color:#ffffff;
-	margin-left:27px;
 	font-size: 18px;
 	font-style: italic;
 }
 
-#albumTtracks {
+#albumTracks {
+    clear:left;
 	margin-top:35px;
+    text-align: left;
 }
 
 .tracks {
@@ -193,6 +200,7 @@ img.poster:hover {
 
 #heading {
 	margin-top:40px;
+    text-align: left;
 }
 
 #heading.img {
@@ -275,8 +283,6 @@ img.poster:hover {
 
 .download {
 	float:none;
-	color:#ffffff;
-	margin-left:27px;
 	font-size: 16px;
 }
 
@@ -330,6 +336,8 @@ img.poster:hover {
 .center {
 	margin-left:auto;
 	margin-right:auto;
+    text-align:center;
+    width:100%;
 }
 
 .right {
