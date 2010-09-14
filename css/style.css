@@ -1,3 +1,5 @@
+@import url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery-ui.css);
+
 body {
 	background-color:#000000;
 	color:#ffffff;
@@ -166,6 +168,10 @@ img.poster:hover {
     color:#ffffff;
 	margin-left:27px;
 }
+#downloadAlbum div {
+    color:#ffffff;
+	margin-left:0px;
+}
 .albumTitle {
 	font-size: 24px;
 }
@@ -280,7 +286,9 @@ img.poster:hover {
 #downloadAlbum {
 	margin-top:7px;
 }
-
+#downloadAlbum div{
+	width: 200px;
+}
 .download {
 	float:none;
 	font-size: 16px;
@@ -290,7 +298,16 @@ img.poster:hover {
 	float:none;
 	font-size: 14px;
 }
-
+button {
+  background: #000;
+  border: 0 none;
+  color: #FFF;
+  text-decoration: underline;
+  display: block;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+}
 .time {
 	margin-top: 7px;
 	vertical-align: top;

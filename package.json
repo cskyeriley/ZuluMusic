@@ -10,6 +10,10 @@
         {
             "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.js", 
             "name": "jquery-ui"
+        },
+        {
+            "url": "file:///Users/Skye/Desktop/bt_apps/apps/widgets/dist/widgets.pkg",
+            "name": "widgets"
         }
     ], 
     "site": "http://www.stevenviola.com/zulu-music", 
