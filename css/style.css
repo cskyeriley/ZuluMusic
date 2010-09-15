@@ -40,7 +40,9 @@ body {
 	color:#67C8FF;
 }
 
-a {color:#67C8FF;font-size:14px;padding-left:14px;background:url("/img/ext.png") no-repeat;}
+a {color:#67C8FF;font-size:14px;}
+a.ext {padding-left:14px;background:url("/img/ext.png") no-repeat;}
+a img{border-style: none;}
 
 #albumList {
     clear:left;
