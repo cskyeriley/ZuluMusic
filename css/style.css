@@ -99,13 +99,11 @@ a {color:#67C8FF;font-size:14px;padding-left:14px;background:url("/img/ext.png")
 }
 
 .galleryTitle {
-	color:#ffffff;
 	margin-left:27px;
 	font-size: 16px;
 }
 
 .galleryArtist {
-	color:#ffffff;
 	margin-left:27px;
 	font-size: 14px;
 	font-style: italic;
@@ -134,6 +132,8 @@ img.poster {
     margin: 27px 27px 10px 27px;
 	max-width: 200px;
 	max-height: 220px;
+    min-width: 175px;
+    min-height: 175px;
     display: block;
 	vertical-align: text-bottom;
     background: url("/img/loading.png") no-repeat center center;
@@ -147,7 +147,6 @@ img.poster:hover {
 }
 
 .title {
-	color:#ffffff;
 	margin-left:27px;
 }
 
@@ -156,9 +155,6 @@ img.poster:hover {
         list-style: none;
         width: 175px;
         float: left;
-       /*  margin: 10px 10px 10px 10px; */
-        
-		color:#ffffff;
 }
 
 #artistGallery li {
@@ -168,7 +164,6 @@ img.poster:hover {
         float: left;
 		position:relative;
 		text-align: left;
-		color:#ffffff;
 }
 
 #albumGallery li {
@@ -178,14 +173,11 @@ img.poster:hover {
         float: left;
         position:relative;
 		text-align: left;
-		color:#ffffff;
 }
 #albumInfo div {
-    color:#ffffff;
 	margin-left:27px;
 }
 #downloadAlbum div {
-    color:#ffffff;
 	margin-left:0px;
 }
 .albumTitle {
@@ -207,12 +199,10 @@ img.poster:hover {
 .tracks {
 	margin:10px 27px 10px 27px;
 	overflow:hidden;
-	color:#fff;
 	clear: both;
 }
 
 .artistTitle {
-	color:#ffffff;
 	margin-left:27px;
 	font-size: 24px;
 }
