@@ -1,6 +1,7 @@
 @import url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/ui-darkness/jquery-ui.css);
 .ui-progressbar{
     height: 16px;
+    width: 200px;
 }
 body {
 	background-color:#000000;
@@ -49,7 +50,7 @@ a img{border-style: none;}
     margin-top:35px;
 }
 #albumList img.poster{margin: 7px 27px 10px 27px;}
-#albumList img.poster:hover{margin: 0px 20px 3px 20px;}
+#albumList img.poster:hover{margin: 0px 20px 10px 20px;}
 
 #bcelement img{
 	height:30px;
@@ -100,17 +101,17 @@ a img{border-style: none;}
 	z-index:999;
 }
 
-.galleryTitle {
-	margin-left:27px;
-	font-size: 16px;
+#gallery li>div{
+    margin-left:27px;
     margin-right:55px;
+}
+.galleryTitle {
+	font-size: 16px;
 }
 
 .galleryArtist {
-	margin-left:27px;
 	font-size: 14px;
 	font-style: italic;
-    margin-right:55px;
 }
 
 #albums, #gallery {
@@ -156,6 +157,7 @@ img.poster:hover {
         display: inline-block;
         list-style: none;
         min-width: 175px;
+        max-width: 250px;
         float: left;
 }
 
@@ -289,7 +291,7 @@ div.image{
 }
 
 #downloadAlbum {
-	margin-top:7px;
+	margin-top:15px;
 }
 #downloadAlbum div{
 	width: 200px;
@@ -311,9 +313,11 @@ button {
   text-decoration: underline;
   display: block;
   text-align: left;
+  cursor: pointer;
+}
+#albums button{
   padding-left: 16px;
   background:url("/img/dl_sm.png") no-repeat left center;
-  cursor: pointer;
 }
 .time, .mainDL {
 	float:right;

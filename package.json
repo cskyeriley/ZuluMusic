@@ -12,7 +12,7 @@
             "name": "jquery-ui"
         },
         {
-            "url": "http://10.20.30.79/a/widgets/dist/widgets.pkg",
+            "url": "file:///Users/Skye/Desktop/bt_apps/apps/widgets/dist/widgets.pkg",
             "name": "widgets"
         }
     ], 
