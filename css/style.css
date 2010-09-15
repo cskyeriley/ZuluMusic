@@ -4,8 +4,12 @@ body {
 	background-color:#000000;
 	color:#ffffff;
 	font: 14px Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
-
+#gallery{
+    padding: 0px;
+}
 #breadcrumb {
     font: 14px Arial, Helvetica, sans-serif;
     background-image:url('bc_bg.png'); 
@@ -97,7 +101,7 @@ a {color:#67C8FF;font-size:14px;padding-left:14px;background:url("/img/ext.png")
 	font-style: italic;
 }
 
-#albums {
+#albums, #gallery {
 	width:90%;
 	position:relative;
 	margin-top:40px;
@@ -107,10 +111,12 @@ a {color:#67C8FF;font-size:14px;padding-left:14px;background:url("/img/ext.png")
 }
 
 .items {
-	margin: 27px;
+	margin-right: 54px;
+    margin-bottom: 54px;
 	height: 300px;
 	padding: 10px;
 	float:left;
+    text-align: left;
 }
 
 img.poster { 
@@ -141,7 +147,7 @@ img.poster:hover {
         width: 175px;
         float: left;
        /*  margin: 10px 10px 10px 10px; */
-        text-align: left;
+        
 		color:#ffffff;
 }
 
@@ -185,16 +191,13 @@ img.poster:hover {
     clear:left;
 	margin-top:35px;
     text-align: left;
+    list-style: decimal;
 }
 
 .tracks {
-	margin-top:10px;
-	margin-bottom:10px;
+	margin:10px 27px 10px 27px;
 	overflow:hidden;
-	border:solid 1px #cacaca;
-	border-bottom:solid 1px #666666;
-	background-color:#ecebea;
-	color:#000000;
+	color:#fff;
 	clear: both;
 }
 
@@ -207,6 +210,7 @@ img.poster:hover {
 #heading {
 	margin-top:40px;
     text-align: left;
+    height: 200px;
 }
 
 #heading.img {
@@ -253,28 +257,19 @@ img.poster:hover {
 }
 
 .track {
-	padding: 7px;
 	overflow:hidden;
-	border:solid 1px #cacaca;
-	border-bottom:solid 1px #666666;
-	background-color:#ecebea;
-	color:#000000;
 	clear: both;
-	background-image:url('bc_bg.png'); 
-    background-repeat:repeat-x;
-	float:left;
 	width:100%;
+    border-bottom: 1px dotted #999;
 }
 
-.track a {
+.track span{
+    padding-bottom: 1px;
+}
+
+.track span.title {
     height:30px;
-    background-image:url('separator.png'); 
-    background-repeat:repeat-y; 
-    background-position:right;
-    padding-right: 15px;
-	padding-left: 15px;
     text-decoration: none;
-    color:#454545;
 }
 
 .optional {
@@ -309,19 +304,7 @@ button {
   cursor: pointer;
 }
 .time {
-	margin-top: 7px;
-	vertical-align: top;
 	float:right;
-}
-
-.time a {
-	background-image:url('separator.png'); 
-    background-repeat:repeat-y; 
-    background-position:left;
-    padding-right: 15px;
-	padding-left: 15px;
-    text-decoration: none;
-    color:#454545;
 }
 
 #footer a {
@@ -354,7 +337,6 @@ button {
 	margin-left:auto;
 	margin-right:auto;
     text-align:center;
-    width:100%;
 }
 
 .right {
