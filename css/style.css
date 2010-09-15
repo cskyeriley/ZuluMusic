@@ -103,12 +103,14 @@ a img{border-style: none;}
 .galleryTitle {
 	margin-left:27px;
 	font-size: 16px;
+    margin-right:55px;
 }
 
 .galleryArtist {
 	margin-left:27px;
 	font-size: 14px;
 	font-style: italic;
+    margin-right:55px;
 }
 
 #albums, #gallery {
@@ -130,7 +132,6 @@ a img{border-style: none;}
 }
 
 img.poster { 
-    float: left; 
     margin: 27px 27px 10px 27px;
 	max-width: 200px;
 	max-height: 220px;
@@ -142,7 +143,6 @@ img.poster {
 }
 
 img.poster:hover { 
-    float: left; 
     margin: 20px 20px 3px 20px;
 	max-width: 200px;
 	border:7px solid #67C8FF;
@@ -155,7 +155,7 @@ img.poster:hover {
 #gallery li {
         display: inline-block;
         list-style: none;
-        width: 175px;
+        min-width: 175px;
         float: left;
 }
 
@@ -312,11 +312,14 @@ button {
   display: block;
   text-align: left;
   padding-left: 16px;
-  background:url("/img/download.png") no-repeat left center;
+  background:url("/img/dl_sm.png") no-repeat left center;
   cursor: pointer;
 }
-.time {
+.time, .mainDL {
 	float:right;
+}
+.mainDL {
+    margin-right: 27px;
 }
 
 #footer a {
