@@ -40,7 +40,7 @@ body {
 }
 #breadcrumb {
     font: 14px Arial, Helvetica, sans-serif;
-    background-image:url('bc_bg.png'); 
+    background-image:url('/img/bc_bg.png'); 
     background-repeat:repeat-x;
     height:30px;
     line-height:30px;
@@ -89,7 +89,7 @@ a img{border-style: none;}
 #bcelement a {
     height:30px;
     display:block;
-    background-image:url('bc_separator.png'); 
+    background-image:url('/img/bc_separator.png'); 
     background-repeat:no-repeat; 
     background-position:right;
     padding-right: 15px;
@@ -108,7 +108,7 @@ a img{border-style: none;}
 
 #footer {
 	font: 14px Arial, Helvetica, sans-serif;
-    background-image:url('bc_bg.png'); 
+    background-image:url('/img/bc_bg.png'); 
     background-repeat:repeat-x;
 	margin-left:auto;
 	margin-right:auto;
@@ -337,7 +337,7 @@ button {
   cursor: pointer;
 }
 #albums button{
-  padding-left: 16px;
+  padding-left: 18px;
   background:url("/img/dl_sm.png") no-repeat left center;
 }
 .time, .mainDL {
@@ -349,7 +349,7 @@ button {
 
 #footer a {
 	height:30px;
-    background-image:url('separator.png'); 
+    background-image:url('/img/separator.png'); 
     background-repeat:repeat-y; 
     background-position:right;
     padding-right: 15px;
