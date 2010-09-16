@@ -1,4 +1,26 @@
 @import url(http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/ui-darkness/jquery-ui.css);
+@import url(http://jquery-loadmask.googlecode.com/svn/trunk/src/jquery.loadmask.css);
+.loadmask {
+    background-color: #222;
+}
+.loadmask-msg {
+    border:none;
+    background: #222;
+    padding:2px;
+    margin: auto;
+    text-align: center;
+}
+.loadmask-msg div {
+    padding:5px;
+    background: #444 url('/img/loading.gif') no-repeat 5px 5px;
+    line-height: 16px;
+    height: 32px;
+    width: 32px;
+	border:none;
+    color:#222;
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    cursor:wait;
+}
 .ui-progressbar{
     height: 16px;
     width: 200px;
@@ -31,14 +53,15 @@ body {
 	z-index:999;
 	top:0px;
 	left:0px;
+    font-weight: bold;
 }
-
+#searchForm input{margin-top: 4px;}
 .link{
 	cursor:pointer;
 }
 
 .link:hover{
-	color:#67C8FF;
+	color:#35acc5;
 }
 
 a {color:#67C8FF;font-size:14px;}
@@ -71,7 +94,7 @@ a img{border-style: none;}
     background-position:right;
     padding-right: 15px;
     text-decoration: none;
-    color:#454545;
+    color:#777;
 }
 
 .home {
@@ -127,7 +150,6 @@ a img{border-style: none;}
 	margin-right: 54px;
     margin-bottom: 54px;
 	height: 300px;
-	padding: 10px;
 	float:left;
     text-align: left;
 }
@@ -156,8 +178,7 @@ img.poster:hover {
 #gallery li {
         display: inline-block;
         list-style: none;
-        min-width: 175px;
-        max-width: 250px;
+        width: 250px;
         float: left;
 }
 

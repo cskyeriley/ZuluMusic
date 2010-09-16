@@ -14,6 +14,10 @@
         {
             "url": "file:///Users/Skye/Desktop/bt_apps/apps/widgets/dist/widgets.pkg",
             "name": "widgets"
+        },
+        {
+            "url": "http://jquery-loadmask.googlecode.com/svn/trunk/src/jquery.loadmask.js",
+            "name": "jquery.loadmask"
         }
     ], 
     "site": "http://www.stevenviola.com/zulu-music", 
