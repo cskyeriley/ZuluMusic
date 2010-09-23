@@ -1,7 +1,5 @@
 {
     "description": "Easily download free music.", 
-    "author": "Steven Viola <steve@stevenviola.com>", 
-    "bt:publisher": "Steven Viola", 
     "bt:libs": [
         {
             "url": "http://staging.apps.bittorrent.com/pkgs/apps-sdk.pkg", 
@@ -10,18 +8,25 @@
         {
             "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.js", 
             "name": "jquery-ui"
-        },
+        }, 
         {
-            "url": "http://staging.apps.bittorrent.com/pkgs/widgets.pkg",
+            "url": "http://staging.apps.bittorrent.com/pkgs/widgets.pkg", 
             "name": "widgets"
-        },
+        }, 
         {
-            "url": "http://jquery-loadmask.googlecode.com/svn/trunk/src/jquery.loadmask.js",
+            "url": "http://jquery-loadmask.googlecode.com/svn/trunk/src/jquery.loadmask.js", 
             "name": "jquery.loadmask"
+        }, 
+        {
+            "url": "http://api.mixpanel.com/site_media/js/api/mixpanel.js", 
+            "name": "mixpanel"
         }
     ], 
-    "site": "http://www.stevenviola.com/zulu-music", 
-    "bt:update_url": "http://www.stevenviola.com/zulu-music", 
+    "bt:publisher": "Steven Viola", 
+    "bt:mixpanel": "5fcc53980ee8e2260b04ed6b64bcd51b",
+    "author": "Steven Viola <steve@stevenviola.com>", 
+    "site": "http://www.stevenviola.com/zulu", 
+    "bt:update_url": "http://www.stevenviola.com/zulu/ZuluMusic.btapp", 
     "version": "0.1", 
     "bt:description": "Easily download free music.", 
     "keywords": [
